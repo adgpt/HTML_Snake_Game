@@ -41,35 +41,6 @@ You can play the game by opening `index.html` in your web browser.
 - Avoid colliding with yourself
 - Try to achieve the highest score possible!
 
-## Setting up Git and GitHub
-
-1. Create a new repository on GitHub:
-   - Go to [GitHub](https://github.com)
-   - Click the '+' icon and select 'New repository'
-   - Name your repository (e.g., 'snake-game')
-   - Choose public/private visibility
-   - Don't initialize with README (we already have one)
-   - Click 'Create repository'
-
-2. Initialize local Git repository and push code:
-   ```bash
-   # Initialize Git repository
-   git init
-
-   # Add all files to staging
-   git add .
-
-   # Commit the files
-   git commit -m "Initial commit: Snake game implementation"
-
-   # Add remote repository
-   git remote add origin https://github.com/YOUR_USERNAME/snake-game.git
-
-   # Push to main branch
-   git branch -M main
-   git push -u origin main
-   ```
-
 ## Technologies Used
 
 - HTML5 Canvas
@@ -86,9 +57,8 @@ This Snake Game was developed with assistance from AI tools, specifically using 
 - Code implementation and optimization
 - Documentation writing
 - Best practices suggestions
-- Bug fixing and testing strategies
 
-While AI was used as a development tool, all design decisions, feature selections, and final implementation choices were made with human oversight to ensure quality and reliability.
+While AI was a development tool, all design decisions, feature selections, and final implementation choices were made with human oversight to ensure quality and reliability.
 
 ## Contributing
 
